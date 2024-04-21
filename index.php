@@ -10,7 +10,7 @@
 
     <div class="linea-horizontal"> <!-- informacion-->
         <div>Corre@gmail.com</div>
-        <div>Telfono</div>
+        <div>Telfono </div>
         <div>Soporte</div>
         <div>Ayuda</div>
     </div>
