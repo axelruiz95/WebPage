@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to right,
+     #03091D 2%,
+     #132059 44%,
+     #03091D 77%); 
+    color: #ffffff; 
+}
