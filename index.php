@@ -8,11 +8,15 @@
 </head>
 <body class="content">
 
-    <div class="linea-horizontal">
+    <div class="linea-horizontal"> <!-- informacion-->
         <div>Corre@gmail.com</div>
         <div>Telfono</div>
         <div>Soporte</div>
         <div>Ayuda</div>
+    </div>
+
+    <div> <!-- Contenedor -->
+
     </div>
 </div>
 </body>
