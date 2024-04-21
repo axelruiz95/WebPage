@@ -13,3 +13,14 @@ body {
      #03091D 77%); 
     color: #ffffff; 
 }
+.linea-horizontal {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+.linea-horizontal div {
+            width: 20%;
+            height: 1px;
+        }
