@@ -1,3 +1,11 @@
 git add .
 git commit -m "Cambio"
 git push origin Cambios-Barbara
+
+##Despues del Merge
+
+git checkout main
+git pull origin main
+
+git checkout Cambios-Barbara
+git merge main
