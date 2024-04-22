@@ -42,8 +42,18 @@
     </div>
 
 
-    <div>
-        <div class="dom-home"></div>
+    <div class="dom-home">
+        <div class="oferta-dom">
+            <div class="o-text1-dom"><p>Get 10% Off Today</p></div>
+            <div class="o-text2-dom"><p>Grab the holiday offer. This offer will end in 3 days.Hurry Up! <br>Get your perfect domain starting from 149/Mo.</p></div>
+        </div>
+    </div>
+
+    <div class="dom-home">
+        <div>
+            <input type="text" class="text-buscador-dom" placeholder="Escribe Tu dominio aqui!">
+            <button type="button" class="buscador-dom">Buscar</button>
+        </div>
     </div>
 </body>
 </html>
