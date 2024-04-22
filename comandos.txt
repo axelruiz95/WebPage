@@ -1,7 +1,6 @@
 git add .
 git commit -m "Cambio"
 git push origin Cambios-Barbara
-git pull origin main  //Unir cambios en master
 
 ##Despues del Merge
 
