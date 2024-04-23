@@ -199,8 +199,8 @@ body {
 }
 .home-img{
     position: absolute;
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 450px;
     left: 842px;
     top: 201px;
 }
@@ -225,7 +225,7 @@ body {
 }
 .dom-home{
     position: absolute;
-    width: 1599px;
+    width: 1517px;
     height: 220px;
     left: 1px;
     top: 846px;
@@ -287,4 +287,86 @@ body {
     #CF088C 80.28%, 
     #FFFFFF 231.81%);
     border-radius: 20px; 
+}
+.about{
+    position: absolute;
+    width: 617px;
+    height: 48px;
+    left: 491px;
+    top: 1200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.about-text{
+    position: absolute;
+    width: 471px;
+    height: 32px;
+    left: 70px;
+    top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+.about-client-boton{
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    left: -50%;
+    right: 84.06%;
+    top: 300%;
+    border-radius: 50%; 
+    background:
+    linear-gradient(225deg,rgba(212, 8, 140, 0.8) 14.64%, rgba(204, 8, 140, 0.8) 17.47%, rgba(133, 7, 138, 0.8) 47.17%, rgba(89, 6, 137, 0.8) 68.39%, rgba(72, 6, 137, 0.8) 79%);
+}
+.about-update-boton{
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    left: -10%;
+    right: 84.06%;
+    top: 300%;
+    border-radius: 50%; 
+    background:
+    linear-gradient(225deg,rgba(212, 8, 140, 0.8) 14.64%, rgba(204, 8, 140, 0.8) 17.47%, rgba(133, 7, 138, 0.8) 47.17%, rgba(89, 6, 137, 0.8) 68.39%, rgba(72, 6, 137, 0.8) 79%);
+}
+.about-server-boton{
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    left: 30%;
+    right: 84.06%;
+    top: 300%;
+    border-radius: 50%; 
+    background:
+    linear-gradient(225deg,rgba(212, 8, 140, 0.8) 14.64%, rgba(204, 8, 140, 0.8) 17.47%, rgba(133, 7, 138, 0.8) 47.17%, rgba(89, 6, 137, 0.8) 68.39%, rgba(72, 6, 137, 0.8) 79%);
+}
+.about-support-boton{
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    left: 70%;
+    right: 84.06%;
+    top: 300%;
+    border-radius: 50%; 
+    background:
+    linear-gradient(225deg,rgba(212, 8, 140, 0.8) 14.64%, rgba(204, 8, 140, 0.8) 17.47%, rgba(133, 7, 138, 0.8) 47.17%, rgba(89, 6, 137, 0.8) 68.39%, rgba(72, 6, 137, 0.8) 79%);
+}
+.about-cert-boton{
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    left: 120%;
+    right: 84.06%;
+    top: 300%;
+    border-radius: 50%; 
+    background:
+    linear-gradient(225deg,rgba(212, 8, 140, 0.8) 14.64%, rgba(204, 8, 140, 0.8) 17.47%, rgba(133, 7, 138, 0.8) 47.17%, rgba(89, 6, 137, 0.8) 68.39%, rgba(72, 6, 137, 0.8) 79%);
 }

@@ -20,7 +20,7 @@
 
     <div class="content-home">
         <div><a><img src="img/google.png" alt="" width="80" height="50"><div class="hoster-menu"> Empresa</div></a></div>
-        <div><a class="home-menu">Home</a></div>
+        <div><a class="home-menu" >Home</a></div>
         <div><a class="dominio-menu">Dominio</a></div>
         <div><a class="wh-menu">Web Hosting</a></div>
         <div><a class="server-menu">Servidores</a></div>
@@ -53,6 +53,18 @@
         <div>
             <input type="text" class="text-buscador-dom" placeholder="Escribe Tu dominio aqui!">
             <button type="button" class="buscador-dom">Buscar</button>
+        </div>
+    </div>
+
+    <div class="about">
+        <div>
+            <div>What will you get if you join us?</div>
+            <div class="about-text">Get the best hosting service at the price you can afford</div>
+            <div class="about-client-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
+            <div class="about-update-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
+            <div class="about-server-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
+            <div class="about-support-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
+            <div class="about-cert-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
         </div>
     </div>
 </body>
