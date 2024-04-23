@@ -58,8 +58,8 @@
 
     <div class="about">
         <div>
-            <div>What will you get if you join us?</div>
-            <div class="about-text">Get the best hosting service at the price you can afford</div>
+            <div class="about-text1"><h3>¿Qué obtendrás si te unes a nosotros?</h3></div>
+            <div class="about-text2">Obtenga el mejor servicio de hosting al precio que pueda pagar</div>
             <div class="about-client-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
             <div class="about-update-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
             <div class="about-server-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>

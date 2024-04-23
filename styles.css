@@ -301,7 +301,21 @@ body {
     line-height: 48px;
     color: #FFFFFF;
 }
-.about-text{
+.about-text1{
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    left: -200px;
+    top: -60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+.about-text2{
     position: absolute;
     width: 471px;
     height: 32px;
