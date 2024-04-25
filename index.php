@@ -55,17 +55,11 @@
             <button type="button" class="buscador-dom">Buscar</button>
         </div>
     </div>
+</div>
 
-    <div class="about">
-        <div>
-            <div class="about-text1"><h3>¿Qué obtendrás si te unes a nosotros?</h3></div>
-            <div class="about-text2">Obtenga el mejor servicio de hosting al precio que pueda pagar</div>
-            <div class="about-client-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
-            <div class="about-update-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
-            <div class="about-server-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
-            <div class="about-support-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
-            <div class="about-cert-boton"><img src="img/client-5-start.png" alt="" width="100" height="100" ></div>
-        </div>
-    </div>
+
 </body>
+<footer>
+
+</footer>
 </html>
