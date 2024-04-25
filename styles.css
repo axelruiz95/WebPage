@@ -384,3 +384,110 @@ body {
     background:
     linear-gradient(225deg,rgba(212, 8, 140, 0.8) 14.64%, rgba(204, 8, 140, 0.8) 17.47%, rgba(133, 7, 138, 0.8) 47.17%, rgba(89, 6, 137, 0.8) 68.39%, rgba(72, 6, 137, 0.8) 79%);
 }
+.plans{
+    position: absolute;
+    top: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.why{
+    position: absolute;
+    top: 1700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.migracion{
+    position: absolute;
+    top: 1800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonio{
+    position: absolute;
+    top: 2000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.complementos{
+    position: absolute;
+    top: 2200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.website{
+    position: absolute;
+    top: 2500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe{
+    position: absolute;
+    width: 1517px;
+    height: 220px;
+    left: 1px;
+    top: 2700px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+.oferta-subscribe{
+    position: absolute;
+    width: 509px;
+    height: 104px;
+    left: 133px;
+    top: 57px;
+}
+.o-text1-subscribe{
+    position: absolute;
+    width: 287px;
+    height: 39px;
+    left: 133px;
+    top: -20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.o-text2-subscribe{
+    position: absolute;
+    width: 509px;
+    height: 700px;
+    left: 133px;
+    top: 90px;
+    opacity: 0.8;
+}
+.text-buscador-subscribe{
+    position: absolute;
+    width: 576px;
+    height: 60px;
+    left: 887px;
+    top: 70px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.buscador-subscribe{
+    position: absolute;
+    width: 95px;
+    height: 45px;
+    left: 1350px;
+    top: 80px;
+    background: linear-gradient(91.24deg, 
+    #FFFFFF -151.39%, 
+    #CF088C 39.72%,
+    #CF088C 60.99%, 
+    #CF088C 80.28%, 
+    #FFFFFF 231.81%);
+    border-radius: 20px; 
+}
