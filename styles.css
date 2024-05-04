@@ -277,7 +277,7 @@ body {
     vertical-align: top;
 }
 .plans {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .plans div {
@@ -530,4 +530,47 @@ body {
     #CF088C 80.28%, 
     #FFFFFF 231.81%);
     border-radius: 20px; 
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > div {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-content {
+    flex: 1;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a:not(:last-child) {
+    margin-right: 10px;
 }
