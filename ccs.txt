@@ -1,65 +1,38 @@
-.dom-home{
-    margin-top: 1px;
-    position: absolute;
-    width: 1375px;
-    height: 220px;
-    left: 1px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
+.complementos{
+    margin-top: 60px;
 }
-.oferta-dom{
-    position: absolute;
-    width: 509px;
-    height: 104px;
-    left: 1px;
-    top: 57px;
+.complementos div {
+    margin-bottom: 20px;
 }
-.o-text1-dom{
-    position: absolute;
-    width: 287px;
-    height: 39px;
-    left: 133px;
-    top: -10px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
-    color: #FFFFFF;
+.complementos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
 }
-.o-text2-dom{
-    position: absolute;
-    width: 509px;
-    height: 55px;
-    left: 133px;
-    top: 50px;
-    opacity: 0.8;
+.complementos h5 {
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
 }
-.text-buscador-dom{
-    position: absolute;
-    width: 550px;
-    height: 60px;
-    left: 750px;
-    top: 70px;
-    background: #FFFFFF;
-    border-radius: 50px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+.complementos-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
-.buscador-dom{
-    position: absolute;
-    width: 95px;
-    height: 45px;
-    left: 1200px;
-    top: 80px;
-    background: linear-gradient(91.24deg, 
-    #FFFFFF -151.39%, 
-    #CF088C 39.72%,
-    #CF088C 60.99%, 
-    #CF088C 80.28%, 
-    #FFFFFF 231.81%);
-    border-radius: 20px; 
+.complementos-speed-rectangle,
+.complementos-net-rectangle,
+.complementos-host-rectangle {
+    width: 250px;
+    height: 150px;
+    background: linear-gradient(to left,
+    #D4088C 0%,
+    #CC088C 4%,
+    #85078A 50%,
+    #590689 70%,
+    #480689 91%
+    );
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
 }
