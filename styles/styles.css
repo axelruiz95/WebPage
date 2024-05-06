@@ -619,15 +619,37 @@ body {
     margin-right: 20px;
 }
 .website{
-    margin-top: 10px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.website div {
+    margin-bottom: 20px;
+}
+.website img {
+    width: 50px;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+.website h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+.website h5 {
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
 }
 .subscribe{
     margin-top: 10px;
-    position: absolute;
-    width: 1300px;
-    height: 220px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe div {
+    margin-bottom: 20px;
 }
 .oferta-subscribe{
     position: absolute;
