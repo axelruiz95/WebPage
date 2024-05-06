@@ -1,38 +1,25 @@
-.complementos{
+.website{
     margin-top: 60px;
+    justify-content: center;
+    align-items: center;
 }
-.complementos div {
+.website div {
     margin-bottom: 20px;
 }
-.complementos h2 {
+.website img {
+    width: 50px;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+.website h2 {
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
     text-align: center;
 }
-.complementos h5 {
+.website h5 {
     font-size: 15px;
     color: #ffffff;
     text-align: center;
-}
-.complementos-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-.complementos-speed-rectangle,
-.complementos-net-rectangle,
-.complementos-host-rectangle {
-    width: 250px;
-    height: 150px;
-    background: linear-gradient(to left,
-    #D4088C 0%,
-    #CC088C 4%,
-    #85078A 50%,
-    #590689 70%,
-    #480689 91%
-    );
-    border-radius: 10px;
-    padding: 20px;
-    margin-right: 20px;
 }

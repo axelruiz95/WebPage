@@ -251,7 +251,7 @@ include './menu/header.php';
             </div>
             <!--<button> </button>-->
             <div class="complementos-backup-rectangle">
-                <img src="./img/ssl.png" alt="">
+                <img src="./img/backup.png" alt="">
                 <h3>Backup Solutions</h3>
                 <p>Let the experts handle your crucial data, backup your data from reliable backup and recovery solution from HOST.CO.IN</p>
                 <em>$500/Mensual</em> 
@@ -261,50 +261,24 @@ include './menu/header.php';
     </section>
 
     <section class="website">
-        <h2>Website</h2>
-    </section>
-
-    <section class="subscribe">
-        <div class="oferta-subscribe">
-            <div class="o-text1-subscribe"><p>Subscribe To Our Newsletter!</p></div>
-            <div class="o-text2-subscribe"><p>Get Regularly News and Exclusive Offers</p></div>
-        </div>
+        <h2>Get Your Website Live Today</h2>
+        <p>Get everything that you require to set up your personal / business website and establish your online presence. Service includes web hosting in India, free domain registration along with 24x7 Support.</p>
     </section>
 
     <section class="subscribe">
         <div>
-            <input type="text" class="text-buscador-subscribe" placeholder="Escribe tu correo aqui!">
-            <button type="button" class="buscador-subscribe">Buscar</button>
+            <div ><p>Subscribe To Our Newsletter!</p></div>
+            <div ><p>Get Regularly News and Exclusive Offers</p></div>
+        </div>
+        <div>
+            <input type="text"  placeholder="Escribe tu correo aqui!">
+            <button type="button">Buscar</button>
         </div>
     </section>
 <!--footer-->
     <?php
     include './menu/footer.php';
     ?>
-    <script >
-        document.addEventListener("DOMContentLoaded", function() {
-    const slider = document.querySelector(".slider");
-    const prevBtn = document.querySelector(".prev-btn");
-    const nextBtn = document.querySelector(".next-btn");
-
-    let currentIndex = 0;
-    const totalSlides = document.querySelectorAll(".slide").length;
-
-    prevBtn.addEventListener("click", function() {
-        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-        updateSlider();
-    });
-
-    nextBtn.addEventListener("click", function() {
-        currentIndex = (currentIndex + 1) % totalSlides;
-        updateSlider();
-    });
-
-    function updateSlider() {
-        const translateValue = -currentIndex * 33.333;
-        slider.style.transform = `translateX(${translateValue}%)`;
-    }
-});
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
