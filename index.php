@@ -4,44 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestra Empresa</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 
 </head>
 <body class="content">
 
-    <section class="linea-horizontal">
-            <div class="email-linea">Corre@gmail.com</div>
-            <div class="phone-linea">Telefono</div>
-            <div class="support-linea">Soporte</div>
-            <div class="help-linea">Ayuda</div>
-    </section>
-    <section class="content-home">
-        <div class="menu-container">
-            <div><img src="img/google.png" alt="" width="80" height="50"></div>
-            <div><a class="hoster-menu">Empresa</a></div>
-            <div><a class="home-menu">Home</a></div>
-            <div><a class="dominio-menu">Dominio</a></div>
-            <div><a class="wh-menu">Web Hosting</a></div>
-            <div><a class="server-menu">Servidores</a></div>
-            <div><a class="seg-menu">Seguridad</a></div>
-            <div><button type="button" onclick="window.location.href='#'" class="boton-login">Login</button></div>
-        </div>
-    </section>
-    <section class="home-txt">
-        <div class="home-container">
-            <div>
-                <h2>Reliable Web Hosting Platform for Your Website</h2>
-                <h4>Fully Managed High Performance Web Hosting With Free Domain</h4>
-                <div class="button-container">
-                    <button class="free-button">7 dias</button>
-                    <button class="plan-button">Cambia tu plan</button>
-                </div>
-            </div>
-            <div>
-            <img src="img/home.png" class="home-img" alt="Home Image">
-            </div>
-        </div>
-    </section>
+<?php
+include './menu/header.php';
+?>
+    
     <section class="dom-home">
         <div class="oferta-dom">
             <div class="o-text1-dom"><p>Get 10% Off Today</p></div>
@@ -52,10 +23,12 @@
             <button type="button" class="buscador-dom">Buscar</button>
         </div>
     </section>
+
     <section class="about">
             <div><h2>¿Qué obtendrás si te unes a nosotros?</h2></div>
             <div><h3>Obtenga el mejor servicio de hosting al precio que pueda pagar</h3></div>
     </section>
+
     <section class="us">
             <div class= "us-container">
                 <div class="us-client-boton">
@@ -75,6 +48,7 @@
                 </div>
             </div>
     </section>
+
     <section class="plans">
         <div><h2>Pricing Plans</h2></div>
         <div><h3>Simple,transparent pricing that grows with you.</h3></div>
@@ -85,6 +59,7 @@
             </div>
         </div>
     </section>
+
     <section class="host">
         <div class="host-container">
             <div class="word-rectangle">
@@ -143,10 +118,12 @@
             </div>
         </div>
     </section>
+
     <section class="why">
         <h2>Why Choose Host.Co.In ?</h2>
-        <div><h5>With Host.co.in stand apart in the sphere of World Wide Web with maximum flexibility offering elevated packages for all your business needs ensuring smooth execution of your business activities.</h3></div>
+        <div><h5>With Host.co.in stand apart in the sphere of World Wide Web with maximum flexibility offering elevated packages for all your business needs ensuring smooth execution of your business activities.</h5></div>
     </section>
+
     <section>
         <div class="why-container">
             <div class="why-speed-rectangle">
@@ -164,69 +141,123 @@
         </div>
     </section>
 
-     <!-- Parte Barbara -->
     <section class="migracion"> 
         <h2> Servicio de Migraciones </h2>
-        <p> Proporcionamos un servicio de migracion facil de gestionar para nuestros clientes </p>
-        <div>
-            <h3> Migracion sin complicaciones </h3>
-            <p> Nuestro equipo de expertos técnicos lo ayudará a migrar su sitio desde su proveedor de 
-                alojamiento actual a Host.co.in. No tiene que preocuparse 
-                por ninguno de los problemas de migración. 
-            </p>
-            <button> Contacto de Ventas </button>
+        <div><h5>Proporcionamos un servicio de migracion facil de gestionar para nuestros clientes</h5></div>
+        <div class="migracion-container">
+            <div class="migracion-rectangle">
+                <h3> Migracion sin complicaciones </h3>
+                <p> Nuestro equipo de expertos técnicos lo ayudará a migrar su sitio desde su proveedor de 
+                    alojamiento actual a Host.co.in. No tiene que preocuparse 
+                    por ninguno de los problemas de migración. 
+                </p>
+                <button> Contacto de Ventas </button>
+            </div>
+            <div><img src="./img/migracion.png" alt="" style="width: 500px; height: 300px;"></div>
         </div>
-        <img src="" alt="">
     </section>
 
     <section class="testimonio">
         <h2> Testimonios </h2>
         <p> Su socio de hosting de confianza desde 2005. Esto es lo que algunos de nuestros clientes dicen sobre HOST.CO.IN </p>
-        <div>
-            <img src="" alt="">
-            <div>
-                <img src="" alt="">
-                <p> </p>
-                <span> </span>
+        <div class="testimonio-slider-container">
+            <div class="testimonio-slider">
+                <div class="testimonio-slide">
+                    <div class="testimonio-circle">
+                    <img src="imagen.png" alt="Imagen de la empresa" width="50" height="50">
+                    </div>
+                    <div class="testimonio-rectangle">
+                    <p>Host provides solid value in VPS hosting with great prices that provide the best premium support and excellent up-time in the industry.</p>
+                    <p>Nombre de la Empresa</p>
+                    </div>
+                    <div class="testimonio-stars">
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    </div>
+                </div>
+                <div class="testimonio-slide">
+                    <div class="testimonio-circle">
+                    <img src="imagen.png" alt="Imagen de la empresa" width="50" height="50">
+                    </div>
+                    <div class="testimonio-rectangle">
+                    <p>Host provides solid value in VPS hosting with great prices that provide the best premium support and excellent up-time in the industry.</p>
+                    <p>Nombre de la Empresa</p>
+                    </div>
+                    <div class="testimonio-stars">
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    </div>
+                </div>
+                <div class="testimonio-slide">
+                    <div class="testimonio-circle">
+                    <img src="imagen.png" alt="Imagen de la empresa" width="50" height="50">
+                    </div>
+                    <div class="testimonio-rectangle">
+                    <p>Host provides solid value in VPS hosting with great prices that provide the best premium support and excellent up-time in the industry.</p>
+                    <p>Nombre de la Empresa</p>
+                    </div>
+                    <div class="testimonio-stars">
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    </div>
+                </div>
+                <div class="testimonio-slide">
+                    <div class="testimonio-circle">
+                    <img src="imagen.png" alt="Imagen de la empresa" width="50" height="50">
+                    </div>
+                    <div class="testimonio-rectangle">
+                    <p>Host provides solid value in VPS hosting with great prices that provide the best premium support and excellent up-time in the industry.</p>
+                    <p>Nombre de la Empresa</p>
+                    </div>
+                    <div class="testimonio-stars">
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    <span class="testimonio-star">&#9733;</span>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="" alt="">
-                <p> </p>
-                <span> </span>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p> </p>
-                <span> </span>
-            </div>
-            <img src="" alt="">
+            <button class="testimonio-prev-btn">&lt;</button>
+            <button class="testimonio-next-btn">&gt;</button>
         </div>
     </section>
 
     <section class="complementos">
         <h2> Web Hsoting Complementos </h2>
         <p> HOST.CO.IN. ofrece varios servicios complementarios que puede utilizar para aumentar la funcionalidad, la seguridad y más de su sitio web. </p>
-        <div>
-            <img src="" alt="">
-            <h3> </h3>
-            <p> </p>
-            <em> </em> 
+        <div class="complementos-container">
+            <div class="complementos-ssl-rectangle">
+                <img src="./img/ssl.png" alt="">
+                <h3>SSL Certificate</h3>
+                <p>Secure your transactions, website's communication and internet browser with SSL encryption certificates of HOST.CO.IN</p>
+                <em>$2500/año</em> 
+            </div>
+            <!--<button> </button>-->
+            <div class="complementos-spam-rectangle">
+                <img src="./img/spam.png" alt="">
+                <h3>Spam Experts</h3>
+                <p>Protect your mailbox from Spam, virus and malware with a complete solution from India's web hosting provider HOST.CO.IN</p>
+                <em>$90/Mensual</em> 
+            </div>
+            <!--<button> </button>-->
+            <div class="complementos-backup-rectangle">
+                <img src="./img/ssl.png" alt="">
+                <h3>Backup Solutions</h3>
+                <p>Let the experts handle your crucial data, backup your data from reliable backup and recovery solution from HOST.CO.IN</p>
+                <em>$500/Mensual</em> 
+            </div>
+            <!--<button> </button>-->
         </div>
-        <button> </button>
-        <div>
-            <img src="" alt="">
-            <h3> </h3>
-            <p> </p>
-            <em> </em> 
-        </div>
-        <button> </button>
-        <div>
-            <img src="" alt="">
-            <h3> </h3>
-            <p> </p>
-            <em> </em> 
-        </div>
-        <button> </button>
     </section>
 
     <section class="website">
@@ -246,7 +277,34 @@
             <button type="button" class="buscador-subscribe">Buscar</button>
         </div>
     </section>
+<!--footer-->
+    <?php
+    include './menu/footer.php';
+    ?>
+    <script >
+        document.addEventListener("DOMContentLoaded", function() {
+    const slider = document.querySelector(".slider");
+    const prevBtn = document.querySelector(".prev-btn");
+    const nextBtn = document.querySelector(".next-btn");
+
+    let currentIndex = 0;
+    const totalSlides = document.querySelectorAll(".slide").length;
+
+    prevBtn.addEventListener("click", function() {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        updateSlider();
+    });
+
+    nextBtn.addEventListener("click", function() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        updateSlider();
+    });
+
+    function updateSlider() {
+        const translateValue = -currentIndex * 33.333;
+        slider.style.transform = `translateX(${translateValue}%)`;
+    }
+});
+    </script>
 </body>
-<footer>
-</footer>
 </html>
