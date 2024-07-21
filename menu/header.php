@@ -7,39 +7,82 @@
     <title>Título de tu Sitio</title>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
+<style>
+        .dominio-menu {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            background-color: lightgray;
+            border: 1px solid gray;
+        }
+        .menu {
+            position: relative;
+            display: inline-block;
+        }
+        .menu-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .menu-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }.menu-content a:hover {
+            background-color: lightgray;
+        }
+        .menu:hover .menu-content {
+            display: block;
+        }
+    </style>
 <body>
     <header>
-    <section class="linea-horizontal">
+    <!-- <section class="linea-horizontal">
             <div class="email-linea">Corre@gmail.com</div>
             <div class="phone-linea">Telefono</div>
             <div class="support-linea">Soporte</div>
             <div class="help-linea">Ayuda</div>
-    </section>
+    </section>-->
     <section class="content-home">
         <div class="menu-container">
-            <div><img src="img/google.png" alt="" width="80" height="50"></div>
-            <div><a class="hoster-menu">Empresa</a></div>
+            <div><img src="./img/google.png" alt="" width="80" height="50"></div>
             <div><a class="home-menu">Home</a></div>
-            <div><a class="dominio-menu">Dominio</a></div>
-            <div><a class="wh-menu">Web Hosting</a></div>
-            <div><a class="server-menu">Servidores</a></div>
-            <div><a class="seg-menu">Seguridad</a></div>
-            <div><button type="button" onclick="window.location.href='#'" class="boton-login">Login</button></div>
-        </div>
-    </section>
-    <section class="home-txt">
-        <div class="home-container">
-            <div>
-                <h2>Reliable Web Hosting Platform for Your Website</h2>
-                <h4>Fully Managed High Performance Web Hosting With Free Domain</h4>
-                <div class="button-container">
-                    <button class="free-button">7 dias</button>
-                    <button class="plan-button">Cambia tu plan</button>
+            <div class="menu">
+                <a class="dominio-menu">Dominio</a>
+                <div class="menu-content">
+                    <a href="#opcion1">Buscar dominio</a>
+                    <a href="#opcion2">Whois</a>
                 </div>
             </div>
-            <div>
-            <img src="img/home.png" class="home-img" alt="Home Image">
+            <div class="menu">
+                <a class="dominio-menu">Web Hosting</a>
+                <div class="menu-content">
+                    <a href="#opcion1">Planes Hosting</a>
+                    <a href="#opcion2">Hosting WordPress</a>
+                    <a href="#opcion3">Correo Empresarial</a>
+                </div>
             </div>
+            <div class="menu">
+                <a class="dominio-menu">Servidores</a>
+                <div class="menu-content">
+                    <a href="#opcion1">VPS</a>
+                    <a href="#opcion2">Cloud VPS</a>
+                    <a href="#opcion3">¿Que es un VPS?</a>
+                </div>
+            </div>
+            <div class="menu">
+                <a class="dominio-menu"> Seguridad</a>
+                <div class="menu-content">
+                    <a href="#opcion1">Certificados SSL</a>
+                    <a href="#opcion2">Certificados SSL Administrativos</a>
+                </div>
+            </div>
+            <!--<div><button type="button" onclick="window.location.href='#'" class="boton-login">Login</button></div>-->
         </div>
     </section>
     </header>
