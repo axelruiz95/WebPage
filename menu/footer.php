@@ -6,7 +6,7 @@
         <div class="footer">
             <div class="footer-container">
                 <div class="logo">
-                    <img src="/WebPage/img/google.png" alt="" style="width: 95px; height: 45px;">
+                    <img src="/img/google.png" alt="" style="width: 95px; height: 45px;">
                 </div>
                 <div class="footer-content">
                     <a href="#"><h3>Empresa</h3></a>
