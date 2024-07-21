@@ -1,88 +1,139 @@
-<!-- header.php -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título de tu Sitio</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
-
-<style>
-        .dominio-menu {
+    <title>Menú de Navegación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.1);
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar a, .navbar img {
+            float: left;
             display: block;
-            padding: 10px;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
             text-decoration: none;
-            color: black;
-            background-color: lightgray;
-            border: 1px solid gray;
         }
-        .menu {
-            position: relative;
-            display: inline-block;
+        .navbar img {
+            padding: 0;
+            margin-right: 80px;
         }
-        .menu-content {
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: #ddd;
+            color: blue;
+        }
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        .dropdown-content {
             display: none;
             position: absolute;
-            background-color: white;
+            background-color: #f9f9f9;
+            min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
         }
-        .menu-content a {
+        .dropdown-content a {
+            float: none;
             color: black;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
-        }.menu-content a:hover {
-            background-color: lightgray;
+            text-align: left;
         }
-        .menu:hover .menu-content {
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
             display: block;
         }
+        .navbar .search-icon {
+            float: right;
+            margin-right: 20px;
+        }
+        .navbar .search-icon a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar .search-icon a:hover {
+            background-color: #ddd;
+            color: red;
+        }
+        .navbar .search-icon i {
+            font-size: 16px;
+        }
     </style>
+</head>
 <body>
-    <header>
-    <!-- <section class="linea-horizontal">
-            <div class="email-linea">Corre@gmail.com</div>
-            <div class="phone-linea">Telefono</div>
-            <div class="support-linea">Soporte</div>
-            <div class="help-linea">Ayuda</div>
-    </section>-->
-    <section class="content-home">
-        <div class="menu-container">
-            <div><img src="./img/google.png" alt="" width="80" height="50"></div>
-            <div><a class="home-menu">Home</a></div>
-            <div class="menu">
-                <a class="dominio-menu">Dominio</a>
-                <div class="menu-content">
-                    <a href="#opcion1">Buscar dominio</a>
-                    <a href="#opcion2">Whois</a>
-                </div>
-            </div>
-            <div class="menu">
-                <a class="dominio-menu">Web Hosting</a>
-                <div class="menu-content">
-                    <a href="#opcion1">Planes Hosting</a>
-                    <a href="#opcion2">Hosting WordPress</a>
-                    <a href="#opcion3">Correo Empresarial</a>
-                </div>
-            </div>
-            <div class="menu">
-                <a class="dominio-menu">Servidores</a>
-                <div class="menu-content">
-                    <a href="#opcion1">VPS</a>
-                    <a href="#opcion2">Cloud VPS</a>
-                    <a href="#opcion3">¿Que es un VPS?</a>
-                </div>
-            </div>
-            <div class="menu">
-                <a class="dominio-menu"> Seguridad</a>
-                <div class="menu-content">
-                    <a href="#opcion1">Certificados SSL</a>
-                    <a href="#opcion2">Certificados SSL Administrativos</a>
-                </div>
-            </div>
-            <!--<div><button type="button" onclick="window.location.href='#'" class="boton-login">Login</button></div>-->
+
+<div class="navbar">
+    <a href="/WebPage/index.php">
+        <img src="/WebPage/img/google.png" alt="Logo" width="80" height="50">
+    </a>
+    <a href="/WebPage/index.php">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Dominio 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/WebPage/dominio/dominio.php">Buscar Dominio</a>
+            <a href="/WebPage/dominio/dominio.php">Whois</a>
         </div>
-    </section>
-    </header>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Web Hosting 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/WebPage/hosting/hosting.php">Planes Hosting</a>
+            <a href="/WebPage/hosting/hosting.php">Wordpress</a>
+            <a href="/WebPage/hosting/hosting.php">Correo Empresarial</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Servidores 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/WebPage/servidores/servidores.php">VPS</a>
+            <a href="/WebPage/servidores/servidores.php">Cloud VPS</a>
+            <a href="/WebPage/servidores/servidores.php">Opción 3</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Seguridad 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/WebPage/seguridad/seguridad.php">Opción 1</a>
+            <a href="/WebPage/seguridad/seguridad.php">Opción 2</a>
+        </div>
+    </div>
+    <div class="search-icon">
+        <a href="/WebPage/dominio/dominio.php"><i class="fas fa-search"></i></a>
+    </div>
+</div>
+
+</body>
+</html>
