@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestra Empresa</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    
 
 </head>
 <body class="content">
@@ -12,6 +13,22 @@
 <?php
 include './menu/header.php';
 ?>
+
+<section class="home-txt">
+        <div class="home-container">
+            <div>
+                <h2>Reliable Web Hosting Platform for Your Website</h2>
+                <h4>Fully Managed High Performance Web Hosting With Free Domain</h4>
+                <div class="button-container">
+                    <button class="free-button">7 dias</button>
+                    <button class="plan-button">Cambia tu plan</button>
+                </div>
+            </div>
+            <div>
+            <img src="img/home.png" class="home-img" alt="Home Image">
+            </div>
+        </div>
+        </section>
     
     <section class="dom-home">
         <div class="oferta-dom">
@@ -24,6 +41,7 @@ include './menu/header.php';
         </div>
     </section>
 
+    
     <section class="about">
             <div><h2>¿Qué obtendrás si te unes a nosotros?</h2></div>
             <div><h3>Obtenga el mejor servicio de hosting al precio que pueda pagar</h3></div>
