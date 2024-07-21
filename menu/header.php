@@ -88,17 +88,17 @@
 <body>
 
 <div class="navbar">
-    <a href="/WebPage/index.php">
-        <img src="/WebPage/img/google.png" alt="Logo" width="80" height="50">
+    <a href="/index.php">
+        <img src="/img/google.png" alt="Logo" width="80" height="50">
     </a>
-    <a href="/WebPage/index.php">Home</a>
+    <a href="/index.php">Home</a>
     <div class="dropdown">
         <button class="dropbtn">Dominio 
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="/WebPage/dominio/dominio.php">Buscar Dominio</a>
-            <a href="/WebPage/dominio/dominio.php">Whois</a>
+            <a href="/dominio/dominio.php">Buscar Dominio</a>
+            <a href="/dominio/dominio.php">Whois</a>
         </div>
     </div>
     <div class="dropdown">
@@ -106,9 +106,9 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="/WebPage/hosting/hosting.php">Planes Hosting</a>
-            <a href="/WebPage/hosting/hosting.php">Wordpress</a>
-            <a href="/WebPage/hosting/hosting.php">Correo Empresarial</a>
+            <a href="/hosting/hosting.php">Planes Hosting</a>
+            <a href="/hosting/hosting.php">Wordpress</a>
+            <a href="/hosting/hosting.php">Correo Empresarial</a>
         </div>
     </div>
     <div class="dropdown">
@@ -116,9 +116,9 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="/WebPage/servidores/servidores.php">VPS</a>
-            <a href="/WebPage/servidores/servidores.php">Cloud VPS</a>
-            <a href="/WebPage/servidores/servidores.php">Opción 3</a>
+            <a href="/servidores/servidores.php">VPS</a>
+            <a href="/servidores/servidores.php">Cloud VPS</a>
+            <a href="/servidores/servidores.php">Opción 3</a>
         </div>
     </div>
     <div class="dropdown">
@@ -126,12 +126,12 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="/WebPage/seguridad/seguridad.php">Opción 1</a>
-            <a href="/WebPage/seguridad/seguridad.php">Opción 2</a>
+            <a href="/seguridad/seguridad.php">Opción 1</a>
+            <a href="/seguridad/seguridad.php">Opción 2</a>
         </div>
     </div>
     <div class="search-icon">
-        <a href="/WebPage/dominio/dominio.php"><i class="fas fa-search"></i></a>
+        <a href="/dominio/dominio.php"><i class="fas fa-search"></i></a>
     </div>
 </div>
 
