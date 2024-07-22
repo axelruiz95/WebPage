@@ -44,7 +44,7 @@
             </div>
         </div>
     </div>
-    <p> Copyright  &copy; <?php echo date("Y"); ?> All rights reserved.  Nuestro Hosting </p>
+    <p> Copyright  &copy; <?php echo date("Y"); ?> All rights reserved.  Cloudtbit.com </p>
         
 </footer>
 </body>
