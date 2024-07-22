@@ -3,34 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dominio</title>
     <link rel="stylesheet" href="../styles/styles.css">
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .column div {
+            margin-bottom: 10px;
+        }
+        .column div img {
+            width: 80px;
+            height: auto;
+        }
+    </style>
 </head>
-<script>
-    .dom {
-    position: absolute;
-    width: 550px;
-    height: 60px;
-    left: 750px;
-    top: 70px;
-    background: #FFFFFF;
-    border-radius: 50px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    }
-    .buscadordom {
-        position: absolute;
-        width: 95px;
-        height: 45px;
-        left: 750px;
-        top: 70px;
-        background:linear-gradient(225deg,rgba(212, 8, 140, 0.8) 14.64%, rgba(204, 8, 140, 0.8) 17.47%, rgba(133, 7, 138, 0.8) 47.17%, rgba(89, 6, 137, 0.8) 68.39%, rgba(72, 6, 137, 0.8) 79%);
-        border-radius: 20px; 
-    }
-</script>
 <body class="content">
 
 <?php
@@ -42,8 +38,8 @@ include '../menu/header.php';
 </section>
 <section>
     <div>
-            <input type="text" class="dom" placeholder="Escribe Tu dominio aqui!">
-            <button type="button" class="buscadordom">Buscar</button>
+        <input type="text" class="dom" placeholder="Escribe Tu dominio aqui!">
+        <button type="button" class="buscadordom">Buscar</button>
     </div>
 </section>
 <section>
@@ -51,29 +47,85 @@ include '../menu/header.php';
     <h4>Con tu nombre de dominio web, las personas sabrán a simple vista por qué estás en línea (y por qué eres increíble). Encuentra la extensión de dominio perfecta para destacarte en internet y atraer a más visitantes.</h4>
 </section>
 
-<section> <!-- Se moejorara con una base de datos-->
-    <table border="1">
-        <tr>
-            <th>Dominio</th>
-        </tr>
-        <tr><td>Imagen</td></tr>
-        <tr><td><h6>.com</h6></td></tr>
-        <tr><td><h6>$ 150 MXN</h6></td></tr>
-    </table>
-    <table border="1">
-        <tr>
-            <th>Dominio</th>
-        </tr>
-        <tr><td>Imagen</td></tr>
-        <tr><td><h6>.com</h6></td></tr>
-        <tr><td><h6>$ 150 MXN</h6></td></tr>
-    </table>
+<section>
+    <div class="container">
+        <div class="column">
+            <div>Tu Dominio</div>
+            <div>Imagen</div>
+            <div>.com</div>
+            <div>Desde</div>
+            <div>$ 150 MXN</div>
+        </div>
+        <div class="column">
+            <div>Tu Dominio</div>
+            <div>Imagen</div>
+            <div>.com.mx</div>
+            <div>Desde</div>
+            <div>$ 150 MXN</div>
+        </div>
+        <div class="column">
+            <div>Tu Dominio</div>
+            <div>Imagen</div>
+            <div>.mx</div>
+            <div>Desde</div>
+            <div>$ 350 MXN</div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="column">
+            <div>Tu Dominio</div>
+            <div>Imagen</div>
+            <div>.org</div>
+            <div>Desde</div>
+            <div>$ 150 MXN</div>
+        </div>
+        <div class="column">
+            <div>Tu Dominio</div>
+            <div>Imagen</div>
+            <div>.site</div>
+            <div>Desde</div>
+            <div>$ 150 MXN</div>
+        </div>
+        <div class="column">
+            <div>Tu Dominio</div>
+            <div>Imagen</div>
+            <div>.store</div>
+            <div>Desde</div>
+            <div>$ 150 MXN</div>
+        </div>
+    </div>
 </section>
 
+<section>
+    <h2>Obten un 90% de descuento en tu nuevo dominio al contratar tu hosting o contratarlo a 2 años</h2>
+</section>
+
+<section>
+    <h3>¿Busca tu Dominio?</h3>
+    <div>
+        <input type="text" class="dom" placeholder="Escribe Tu dominio aqui!">
+        <button type="button" class="buscadordom">Buscar</button>
+    </div>
+</section>
+
+<section>
+    <h3>¿Qué es un Dominio?</h3>
+    <table>
+        <tr>
+            <td><img src="../img/dominio.png" alt="" style="width: 95px; height: 45px;"></td>
+            <td>Un dominio es una dirección única en Internet que permite identificar y acceder a un sitio web. Funciona como una dirección física, pero en el mundo digital. Por ejemplo, www.tusitioweb.com es un dominio.
+                Los dominios están compuestos por dos partes principales: el nombre y la extensión. En el caso de "tusitioweb.com", "tusitioweb" es el nombre del dominio y ".com" es la extensión. Existen muchas extensiones diferentes, como .org, .net, .edu, entre otras, cada una con un propósito específico.
+                Registrar un dominio es un paso crucial para establecer tu presencia en línea, ya que es la forma en la que los usuarios encontrarán y accederán a tu sitio web. Es importante elegir un nombre de dominio que sea fácil de recordar, relevante para tu marca y único.
+            </td>
+        </tr>
+    </table>
+</section>
 <?php
-    include '../menu/footer.php';
-    ?>
-    <script src="js/script.js"></script>
-    
+include '../menu/footer.php';
+?>
+<script src="js/script.js"></script>
+
 </body>
 </html>

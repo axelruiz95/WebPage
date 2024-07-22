@@ -750,3 +750,21 @@ body {
 .social-icons a:not(:last-child) {
     margin-right: 10px;
 }
+.containerdom {
+    display: flex;
+    justify-content: flex-end; /* Alinea los divs al final del contenedor */
+    gap: 20px; /* Espacio entre los divs */
+    padding: 10px; /* Opcional: espaciado alrededor del contenedor */
+}
+.columndom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.columndom div {
+    margin-bottom: 10px; /* Espacio entre los elementos dentro de cada columna */
+}
+.columndom div img {
+    width: 80px; /* Ajusta el tamaño de las imágenes si es necesario */
+    height: auto;
+}
