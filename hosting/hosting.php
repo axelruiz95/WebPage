@@ -47,6 +47,7 @@
         }
         .plan h2 {
             font-size: 24px;
+            color: #333;
             margin: 10px 0;
         }
         .plan p {
