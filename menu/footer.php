@@ -44,8 +44,7 @@
             </div>
         </div>
     </div>
-    <p style="text-align: center;"> Copyright  &copy; <?php echo date("Y"); ?> All rights reserved.  Cloudtbit.com </p>
-        
+    <p style="text-align: center;"> Copyright  &copy; <?php echo date("Y"); ?> All rights reserved.  Cloudtbit.com </p>  
 </footer>
 </body>
 </html>
