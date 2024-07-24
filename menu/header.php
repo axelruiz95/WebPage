@@ -117,7 +117,7 @@
         </button>
         <div class="dropdown-content">
             <a href="/servidores/vps.php">VPS</a>
-            <a href="/servidores/cloudvps.php">Cloud VPS</a>
+            <a href="/servidores/cloud.php">Cloud VPS</a>
             <a href="/servidores/dedicado.php">Servidores Dedicados</a>
         </div>
     </div>
