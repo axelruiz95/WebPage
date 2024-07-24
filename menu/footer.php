@@ -45,6 +45,9 @@
         </div>
     </div>
     <p style="text-align: center;"> Copyright  &copy; <?php echo date("Y"); ?> All rights reserved.  Cloudtbit.com </p>  
+    <small class="footer__sub-footer__currency">
+Los precios se encuentran en pesos mexicanos (MXN), no incluyen IVA y se encuentran sujetos a cambios sin previo aviso.
+</small>
 </footer>
 </body>
 </html>

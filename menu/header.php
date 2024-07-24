@@ -116,9 +116,9 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-            <a href="/servidores/servidores.php">VPS</a>
-            <a href="/servidores/servidores.php">Cloud VPS</a>
-            <a href="/servidores/servidores.php">Opción 3</a>
+            <a href="/servidores/vps.php">VPS</a>
+            <a href="/servidores/cloudvps.php">Cloud VPS</a>
+            <a href="/servidores/dedicado.php">Servidores Dedicados</a>
         </div>
     </div>
     <div class="dropdown">
