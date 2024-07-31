@@ -10,7 +10,7 @@
 <body class="content">
 
 <?php
-include './menu/header.php';
+include '/menu/header.php';
 ?>
 
 <section class="home-txt">
