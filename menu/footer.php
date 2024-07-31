@@ -6,7 +6,7 @@
         <div class="footer">
             <div class="footer-container">
                 <div class="logo">
-                    <img src="./img/google.png" alt="" style="width: 95px; height: 45px;">
+                    <img src="/img/google.png" alt="" style="width: 95px; height: 45px;">
                 </div>
                 <div class="footer-content">
                     <a href="#"><h3>Empresa</h3></a>
@@ -44,8 +44,10 @@
             </div>
         </div>
     </div>
-    <p> Copyright  &copy; <?php echo date("Y"); ?> All rights reserved.  Nuestro Hosting </p>
-        
+    <p style="text-align: center;"> Copyright  &copy; <?php echo date("Y"); ?> All rights reserved.  Cloudtbit.com </p>  
+    <small class="footer__sub-footer__currency">
+Los precios se encuentran en pesos mexicanos (MXN), no incluyen IVA y se encuentran sujetos a cambios sin previo aviso.
+</small>
 </footer>
 </body>
 </html>
