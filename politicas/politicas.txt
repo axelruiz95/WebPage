@@ -1,0 +1,9 @@
+Precios promocionales en la primera factura
+
+
+Los precios promocionales ofrecidos por HostGator se aplican en el primer periodo de pago, y están disponibles en los ciclos indicados en la página de cada producto.
+
+Renovaciones: en la renovación del plan, el precio regular será cobrado. La renovación será realizada de forma automática, en el mismo ciclo indicado durante la compra. Puedes visualizar y/o cambiar esta configuración en el Portal del Cliente.
+Para quién es válido el descuento: los descuentos son válidos para nuevos clientes. Para clientes actuales esta promoción es válida en la contratación de un nuevo plan de web hosting. No aplica para renovaciones, migraciones entre cuentas, upgrades, downgrades, ni para cambios en el periodo de contratación.
+
+* Nota: Los planes son prepago, es decir, pagas el valor integral del servicio en el momento de la compra. Para fines de comparación, el valor equivalente mensual representa el precio total distribuido en la cantidad de meses contratados.
