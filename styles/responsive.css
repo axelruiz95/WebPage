@@ -1,0 +1,29 @@
+/* Movil */
+@media (min-width: 688px) and (max-width: 373px){
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media(min-width: 820px) and (max-width: 1180px){
+    .desktop{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+}
+
+/* Escritorio */
+@media (min-width:991px){
+    .tablet{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+}

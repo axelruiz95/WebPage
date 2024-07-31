@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestra Empresa</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
 
 </head>
 <body class="content">
