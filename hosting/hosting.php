@@ -30,10 +30,19 @@
             vertical-align: top;
         }
         .plan-container {
-            display: flex;
+            display: none;
             justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
+        }
+        .plan-container.active {
+            display: flex;
+        }
+        #planes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
         }
         .plan {
             background-color: #fff;
@@ -44,22 +53,22 @@
             text-align: center;
             flex: 0 1 23%;
             box-sizing: border-box;
-        }
+        }        
         .plan h2 {
             font-size: 24px;
             color: #333;
             margin: 10px 0;
-        }
+        }        
         .plan p {
             font-size: 16px;
             color: #333;
             margin: 10px 0;
-        }
+        }    
         .plan .price {
             font-size: 20px;
             color: #333;
             margin: 20px 0;
-        }
+        }    
         .plan .button {
             display: inline-block;
             padding: 10px 20px;
@@ -73,26 +82,80 @@
             border: none;
             border-radius: 15px;
             box-shadow: 0 9px #999;
-        }
+        }        
         .plan .button:hover {
             background-color: #3e8e41;
-        }
+        }         
         .plan .button:active {
             background-color: #3e8e41;
             box-shadow: 0 5px #666;
             transform: translateY(4px);
         }
+        .hostplan-button-rectangle {
+            width: 300px;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #ffffff;
+            border: 1px solid #050505;
+            border-radius: 30px;
+        }
+        .hostplan-button-rectangle button {
+            flex: 1;
+            margin-right: 10px;
+            font-size: 16px;
+            background: linear-gradient(to left, #6EE8FC 0%, #6AE2FB 16%, #5ED1F7 37%, #4BB5F1 61%, #308EE8 87%, #267Fe5 96%);
+            color: #fff;
+            border: none;
+            border: 1px solid #050505;
+            border-radius: 25px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .hostplan-button-rectangle button:last-child {
+            margin-right: 0;
+        }
+        .hostplan-button-rectangle button.active {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .hostplan-button-rectangle button.inactive {
+        background: #ffffff;
+        color: #000000;
+        }
+        .hostplans {
+            margin-top: 50px;
+        }
+
+        .hostplans div {
+            margin-bottom: 20px;
+        }
+        .hostplans h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+        }
+        .hostplans h3 {
+            font-size: 18px;
+            color: #ffffff;
+            text-align: center;
+        }
+        .hostbutton-container {
+            margin-right: 30px;
+        }        
+
     </style>
     
 </head>
-<body  class="content">
+<body class="content">
 
 <?php
 include '../menu/header.php';
 ?>
 
 <section>
-        <h1>Soluciones Web Hosting</h1>
+    <h1>Soluciones Web Hosting</h1>
     <table border="1">
         <tr>
             <td colspan="2">Hosting Confiable para Todo Tipo de Proyectos</td>
@@ -120,13 +183,26 @@ include '../menu/header.php';
             <td colspan="2">Escalabilidad: Planes flexibles que crecen con tu negocio.</td>
         </tr>
         <tr>
-            <td colspan="2"><button class="button" onclick="window.location.href='#planes'">Ver Planes</button>
+            <td colspan="2">
+                <button class="button" onclick="window.location.href='#planes'">Ver Planes</button>
             </td>
         </tr>
     </table>
 </section>
-<section>
-    <div id="planes" class="plan-container">
+
+<section class="hostplans">
+    <div><h2>Planes Hosting y WordPress</h2></div>
+    <div><h3>Simple y Transparente contigo.</h3></div>
+    <div class="hostbutton-container">
+        <div class="hostplan-button-rectangle">
+            <button id="btn-hosting" onclick="toggleSection('hosting', this)">Hosting</button>
+            <button id="btn-wordpress" onclick="toggleSection('wordpress', this)">WordPress</button>
+        </div>
+    </div>
+</section>
+
+<section id="hosting" class="plan-container">
+    <div id="planes" >
         <div class="plan">
             <h2>Básico</h2>
             <button class="button">Comprar Básico</button>
@@ -178,6 +254,60 @@ include '../menu/header.php';
     </div>
 </section>
 
+<section id="wordpress" class="plan-container">
+    <div id="planes">
+        <div class="plan">
+            <h2>Básico</h2>
+            <button class="button">Comprar Básico</button>
+            <p>Panel WordPress</p>
+            <p class="price">$490 MXN Anual</p>
+            <p>1 dominio</p>
+            <p>24 Gb de almacenamiento</p>
+            <p>1 base de datos</p>
+            <p>Cuentas de correo Ilimitadas</p>
+            <p>Soporte 24/7 vía Ticket</p>
+            <p>Complementos Gratis</p>
+        </div>
+        
+        <div class="plan">
+            <h2>Básico</h2>
+            <button class="button">Comprar Básico</button>
+            <p>Panel WorkPress</p>
+            <p class="price">$490 MXN Anual</p>
+            <p>1 dominio</p>
+            <p>24 Gb de almacenamiento</p>
+            <p>1 base de datos</p>
+            <p>Cuentas de correo Ilimitadas</p>
+            <p>Soporte 24/7 vía Ticket</p>
+            <p>Complementos Gratis</p>
+        </div>
+        <div class="plan">
+            <h2>Básico</h2>
+            <button class="button">Comprar Básico</button>
+            <p>Panel WorkPress</p>
+            <p class="price">$490 MXN Anual</p>
+            <p>1 dominio</p>
+            <p>24 Gb de almacenamiento</p>
+            <p>1 base de datos</p>
+            <p>Cuentas de correo Ilimitadas</p>
+            <p>Soporte 24/7 vía Ticket</p>
+            <p>Complementos Gratis</p>
+        </div>
+        <div class="plan">
+            <h2>Básico</h2>
+            <button class="button">Comprar Básico</button>
+            <p>Panel WorkPress</p>
+            <p class="price">$490 MXN Anual</p>
+            <p>1 dominio</p>
+            <p>24 Gb de almacenamiento</p>
+            <p>1 base de datos</p>
+            <p>Cuentas de correo Ilimitadas</p>
+            <p>Soporte 24/7 vía Ticket</p>
+            <p>Complementos Gratis</p>
+        </div>
+    </div>
+</section>
+
 <section>
     <table>
         <tr>
@@ -197,8 +327,42 @@ include '../menu/header.php';
     </table>
 </section>
 
-  <?php
+<?php
 include '../menu/footer.php';
 ?>
+
+<script>
+        let currentSection = '';
+
+        function toggleSection(sectionId, button) {
+            const sections = document.querySelectorAll('.plan-container');
+            const buttons = document.querySelectorAll('.hostplan-button-rectangle button');
+
+            if (currentSection === sectionId) {
+                sections.forEach(section => section.classList.remove('active'));
+                buttons.forEach(btn => {
+                btn.classList.remove('active');
+                btn.classList.add('inactive');
+            });
+            currentSection = '';
+            } else {
+                sections.forEach(section => section.classList.remove('active'));
+                const activeSection = document.getElementById(sectionId);
+                activeSection.classList.add('active');
+                buttons.forEach(btn => {
+                btn.classList.remove('active');
+                btn.classList.add('inactive');
+            });
+
+                button.classList.add('active');
+            button.classList.remove('inactive');
+                currentSection = sectionId;
+            }
+        }
+        document.getElementById('btn-hosting').classList.add('active');
+        document.getElementById('btn-hosting').classList.remove('inactive');
+        document.getElementById('hosting').classList.add('active');
+        currentSection = 'hosting';
+    </script>
 </body>
 </html>
