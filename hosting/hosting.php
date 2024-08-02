@@ -204,49 +204,49 @@ include '../menu/header.php';
 <section id="hosting" class="plan-container">
     <div id="planes" >
         <div class="plan">
-            <h2>Básico</h2>
-            <button class="button">Comprar Básico</button>
+            <h2>ToHosting 1</h2>
+            <button class="button">Comprar ToHosting 1</button>
             <p>Panel Plesk</p>
-            <p class="price">$490 MXN Anual</p>
+            <p class="price">$480 MXN Anual</p>
             <p>1 dominio</p>
-            <p>24 Gb de almacenamiento</p>
-            <p>1 base de datos</p>
+            <p>6 Gb de almacenamiento</p>
+            <p>5 base de datos</p>
             <p>Cuentas de correo Ilimitadas</p>
             <p>Soporte 24/7 vía Ticket</p>
             <p>Complementos Gratis</p>
         </div>
         <div class="plan">
-            <h2>Básico</h2>
-            <button class="button">Comprar Básico</button>
+            <h2>ToHosting 2</h2>
+            <button class="button">Comprar ToHosting 2</button>
             <p>Panel Plesk</p>
-            <p class="price">$490 MXN Anual</p>
-            <p>1 dominio</p>
-            <p>24 Gb de almacenamiento</p>
-            <p>1 base de datos</p>
+            <p class="price">$960 MXN Anual</p>
+            <p>2 dominio</p>
+            <p>25 Gb de almacenamiento</p>
+            <p>Bases de Datos Ilimitadas</p>
             <p>Cuentas de correo Ilimitadas</p>
             <p>Soporte 24/7 vía Ticket</p>
             <p>Complementos Gratis</p>
         </div>
         <div class="plan">
-            <h2>Básico</h2>
-            <button class="button">Comprar Básico</button>
+            <h2>ToHosting 3</h2>
+            <button class="button">Comprar ToHosting 3</button>
             <p>Panel Plesk</p>
-            <p class="price">$490 MXN Anual</p>
-            <p>1 dominio</p>
-            <p>24 Gb de almacenamiento</p>
-            <p>1 base de datos</p>
+            <p class="price">$1800 MXN Anual</p>
+            <p>Dominio Ilimitado</p>
+            <p>50 Gb de almacenamiento</p>
+            <p>Bases de Datos Ilimitadas</p>
             <p>Cuentas de correo Ilimitadas</p>
             <p>Soporte 24/7 vía Ticket</p>
             <p>Complementos Gratis</p>
         </div>
         <div class="plan">
-            <h2>Básico</h2>
-            <button class="button">Comprar Básico</button>
+            <h2>ToHosting 4</h2>
+            <button class="button">Comprar ToHosting 4</button>
             <p>Panel Plesk</p>
-            <p class="price">$490 MXN Anual</p>
-            <p>1 dominio</p>
-            <p>24 Gb de almacenamiento</p>
-            <p>1 base de datos</p>
+            <p class="price">$2400 MXN Anual</p>
+            <p>Dominio Ilimitado</p>
+            <p>75 Gb de almacenamiento</p>
+            <p>Bases de Datos Ilimitadas</p>
             <p>Cuentas de correo Ilimitadas</p>
             <p>Soporte 24/7 vía Ticket</p>
             <p>Complementos Gratis</p>
@@ -257,53 +257,65 @@ include '../menu/header.php';
 <section id="wordpress" class="plan-container">
     <div id="planes">
         <div class="plan">
-            <h2>Básico</h2>
-            <button class="button">Comprar Básico</button>
+            <h2>ToWordPress Mensual</h2>
+            <button class="button">Comprar ToWordPress</button>
             <p>Panel WordPress</p>
-            <p class="price">$490 MXN Anual</p>
+            <p class="price">$90 MXN Anual</p>
             <p>1 dominio</p>
-            <p>24 Gb de almacenamiento</p>
-            <p>1 base de datos</p>
-            <p>Cuentas de correo Ilimitadas</p>
+            <p>25 Gb de almacenamiento SSD</p>
+            <p>Certificado SSL GRATIS</p>
+            <p>2 base de datos</p>
+            <p>20 Cuentas de correo</p>
             <p>Soporte 24/7 vía Ticket</p>
+            <p>WordPress Toolkit Deluxe</p>
             <p>Complementos Gratis</p>
         </div>
         
         <div class="plan">
-            <h2>Básico</h2>
+            <h2>ToWordPress Semestral</h2>
             <button class="button">Comprar Básico</button>
             <p>Panel WorkPress</p>
             <p class="price">$490 MXN Anual</p>
             <p>1 dominio</p>
-            <p>24 Gb de almacenamiento</p>
-            <p>1 base de datos</p>
-            <p>Cuentas de correo Ilimitadas</p>
+            <p>25 Gb de almacenamiento SSD</p>
+            <p>Certificado SSL GRATIS</p>
+            <p>2 base de datos</p>
+            <p>20 Cuentas de correo</p>
             <p>Soporte 24/7 vía Ticket</p>
+            <p>WordPress Toolkit Deluxe</p>
             <p>Complementos Gratis</p>
         </div>
         <div class="plan">
-            <h2>Básico</h2>
+            <h2>ToWordPress Anual</h2>
             <button class="button">Comprar Básico</button>
             <p>Panel WorkPress</p>
             <p class="price">$490 MXN Anual</p>
             <p>1 dominio</p>
-            <p>24 Gb de almacenamiento</p>
-            <p>1 base de datos</p>
-            <p>Cuentas de correo Ilimitadas</p>
+            <p>25 Gb de almacenamiento SSD</p>
+            <p>Certificado SSL GRATIS</p>
+            <p>2 base de datos</p>
+            <p>20 Cuentas de correo</p>
             <p>Soporte 24/7 vía Ticket</p>
+            <p>WordPress Toolkit Deluxe</p>
             <p>Complementos Gratis</p>
+            <p>Dominio GRATIS*
+            (.com, .com.mx, .website, .space, .site, .online, .fun, .uno)</p>
         </div>
         <div class="plan">
-            <h2>Básico</h2>
+            <h2>ToWordPress 3 años</h2>
             <button class="button">Comprar Básico</button>
             <p>Panel WorkPress</p>
             <p class="price">$490 MXN Anual</p>
             <p>1 dominio</p>
-            <p>24 Gb de almacenamiento</p>
-            <p>1 base de datos</p>
-            <p>Cuentas de correo Ilimitadas</p>
+            <p>25 Gb de almacenamiento SSD</p>
+            <p>Certificado SSL GRATIS</p>
+            <p>2 base de datos</p>
+            <p>20 Cuentas de correo</p>
             <p>Soporte 24/7 vía Ticket</p>
+            <p>WordPress Toolkit Deluxe</p>
             <p>Complementos Gratis</p>
+            <p>Dominio GRATIS*
+            (.com, .com.mx, .website, .space, .site, .online, .fun, .uno)</p>
         </div>
     </div>
 </section>
@@ -331,38 +343,7 @@ include '../menu/header.php';
 include '../menu/footer.php';
 ?>
 
-<script>
-        let currentSection = '';
+<script src="../script/script.js"></script>
 
-        function toggleSection(sectionId, button) {
-            const sections = document.querySelectorAll('.plan-container');
-            const buttons = document.querySelectorAll('.hostplan-button-rectangle button');
-
-            if (currentSection === sectionId) {
-                sections.forEach(section => section.classList.remove('active'));
-                buttons.forEach(btn => {
-                btn.classList.remove('active');
-                btn.classList.add('inactive');
-            });
-            currentSection = '';
-            } else {
-                sections.forEach(section => section.classList.remove('active'));
-                const activeSection = document.getElementById(sectionId);
-                activeSection.classList.add('active');
-                buttons.forEach(btn => {
-                btn.classList.remove('active');
-                btn.classList.add('inactive');
-            });
-
-                button.classList.add('active');
-            button.classList.remove('inactive');
-                currentSection = sectionId;
-            }
-        }
-        document.getElementById('btn-hosting').classList.add('active');
-        document.getElementById('btn-hosting').classList.remove('inactive');
-        document.getElementById('hosting').classList.add('active');
-        currentSection = 'hosting';
-    </script>
 </body>
 </html>
