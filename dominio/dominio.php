@@ -54,21 +54,21 @@ include '../menu/header.php';
             <div>Imagen</div>
             <div>.com</div>
             <div>Desde</div>
-            <div>$ 150 MXN</div>
+            <div>$ 300 MXN</div>
         </div>
         <div class="column">
             <div>Tu Dominio</div>
             <div>Imagen</div>
             <div>.com.mx</div>
             <div>Desde</div>
-            <div>$ 150 MXN</div>
+            <div>$ 450 MXN</div>
         </div>
         <div class="column">
             <div>Tu Dominio</div>
             <div>Imagen</div>
             <div>.mx</div>
             <div>Desde</div>
-            <div>$ 350 MXN</div>
+            <div>$ 300 MXN</div>
         </div>
     </div>
 </section>
@@ -79,21 +79,21 @@ include '../menu/header.php';
             <div>Imagen</div>
             <div>.org</div>
             <div>Desde</div>
-            <div>$ 150 MXN</div>
+            <div>$ 500 MXN</div>
         </div>
         <div class="column">
             <div>Tu Dominio</div>
             <div>Imagen</div>
-            <div>.site</div>
+            <div>.net</div>
             <div>Desde</div>
-            <div>$ 150 MXN</div>
+            <div>$ 300 MXN</div>
         </div>
         <div class="column">
             <div>Tu Dominio</div>
             <div>Imagen</div>
-            <div>.store</div>
+            <div>.me</div>
             <div>Desde</div>
-            <div>$ 150 MXN</div>
+            <div>$ 500 MXN</div>
         </div>
     </div>
 </section>

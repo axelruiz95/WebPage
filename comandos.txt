@@ -3,3 +3,9 @@ git pull origin main
 
 git checkout Cambios-Barbara
 git merge main
+
+##cuando quieras subir un cambio
+
+git add .
+git commit -m "Cambio"
+git push origin Cambios-Barbara
