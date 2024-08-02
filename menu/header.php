@@ -105,7 +105,7 @@
         <button class="dropbtn">Web Hosting 
             <i class="fa fa-caret-down"></i>
         </button>
-        <div class="dropdown-content">
+        <div class="dropdown-content"><!--Prueba cambio-->
             <a href="/hosting/hosting.php">Planes Hosting</a>
             <a href="/hosting/hosting.php">Wordpress</a>
             <a href="/hosting/hosting.php">Correo Empresarial</a>
