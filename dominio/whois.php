@@ -34,14 +34,15 @@
             echo "<h1>Resultados de WHOIS</h1>";
             echo "<pre>$whois</pre>";
         }
-    } else {}
-        ?>
-        <div></div>
-        <?php
-        include '../menu/footer.php';
-        ?>
-        <script src="js/script.js"></script>
+    } else {
+    }
+    ?>
+    <div></div>
+    <?php
+    include '../menu/footer.php';
+    ?>
+    <script src="js/script.js"></script>
 
-    </body>
+</body>
 
-    </html>
+</html>

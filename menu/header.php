@@ -138,7 +138,7 @@
             <button class="dropbtn">Seguridad <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content">
                 <a href="/seguridad/certificado.php">Certificados SSL</a>
-                <a href="/seguridad/certificado.php">Backup</a>
+                <a href="/seguridad/backup.php">Backup</a>
             </div>
         </div>
         <div class="search-icon">
