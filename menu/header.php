@@ -112,14 +112,14 @@
         </a>
         <a href="/index.php">Home</a>
         <div class="dropdown">
-            <button class="dropbtn">Dominio <i class="fa fa-caret-down"></i></button>
+            <button class="dropbtn">Dominio<i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content">
                 <a href="/dominio/dominio.php">Buscar Dominio</a>
-                <a href="/dominio/dominio.php">Whois</a>
+                <a href="/dominio/whois.php">Whois</a>
             </div>
         </div>
         <div class="dropdown">
-            <button class="dropbtn">Web Hosting <i class="fa fa-caret-down"></i></button>
+            <button class="dropbtn">Hosting<i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content">
                 <a href="/hosting/hosting.php">Planes Hosting</a>
                 <a href="/hosting/hosting.php">Wordpress</a>
