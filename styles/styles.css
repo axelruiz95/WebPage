@@ -306,19 +306,17 @@ body {
     justify-content: space-between;
     padding: 10px;
     background-color: #ffffff;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #050505;
     border-radius: 30px;
 }
 .button-rectangle button {
     flex: 1;
     margin-right: 10px;
     font-size: 16px;
-    background: linear-gradient(to right,
-    #CF088C 50%,
-    #CF088C 55%,
-    #CF088C 60%);
+    background: linear-gradient(to  left, #6EE8FC 0%, #6AE2FB 16%, #5ED1F7 37%, #4BB5F1 61%, #308EE8 87%, #267Fe5 96%);
     color: #fff;
     border: none;
+    border: 1px solid #050505;
     border-radius: 25px;
 }
 .button-rectangle button:last-child {

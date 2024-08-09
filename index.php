@@ -95,7 +95,7 @@ include './menu/header.php';
                     </ul>
                 </div>
                 <div>
-                    <button class="word-button"> ax</button>
+                    <button class="hosting-button"> ax</button>
                 </div>
             </div>
             <div class="hosting-rectangle">
@@ -131,7 +131,7 @@ include './menu/header.php';
                     </ul>
                 </div>
                 <div>
-                    <button class="vps-button"> ax</button>
+                    <button class="hosting-button"> ax</button>
                 </div>
             </div>
         </div>
