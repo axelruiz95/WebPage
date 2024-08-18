@@ -6,7 +6,6 @@
     <title>Cloud to bit</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/responsive.css">
-  
 </head>
 <body class="content">
 
