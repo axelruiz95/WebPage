@@ -3,11 +3,14 @@ body {
     padding: 0;
 }
 .content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
     background: linear-gradient(to  left, #6EE8FC 0%, #6AE2FB 16%, #5ED1F7 37%, #4BB5F1 61%, #308EE8 87%, #267Fe5 96%);
     color: #ffffff; 
+}
+.content-home {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .linea-horizontal {
     margin-top: 1px;
@@ -44,12 +47,7 @@ body {
         width: calc(10% - 30px);
     }
 }
-.content-home {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+
 .menu-container{
     position: absolute;
     width: 1300px;
