@@ -293,9 +293,7 @@ include './menu/header.php';
         </div>
     </section>
 <!--footer-->
-    <?php
-    include './menu/footer.php';
-    ?>
+    <?php include './menu/footer.php'; ?>
     <script src="js/script.js"></script>
 </body>
 </html>
