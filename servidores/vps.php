@@ -14,12 +14,6 @@
             flex-direction: column;
             align-items: center;
             margin: 0;
-            padding: 20px;
-        }
-
-        .content {
-            width: 100%;
-            max-width: 1200px;
         }
 
         .info-container {
@@ -36,7 +30,6 @@
         }
 
         .info-container img {
-            max-width: 200px;
             height: auto;
             border-radius: 8px;
         }
