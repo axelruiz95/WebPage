@@ -11,19 +11,19 @@
       <div class="col-lg-2 col-md-6 mb-4">
         <h5>Compañía</h5>
         <ul class="list-unstyled">
-          <li><a href="#" class="text-white">Acerca de Nosotros</a></li>
-          <li><a href="#" class="text-white">Soporte</a></li>
-          <li><a href="#" class="text-white">Contacto</a></li>
-          <li><a href="#" class="text-white">Mapa del Sitio</a></li>
+          <li><a href="/compania/about.php" class="text-white">Acerca de Nosotros</a></li>
+          <li><a href="/compania/soporte.php" class="text-white">Soporte</a></li>
+          <li><a href="/compania/contacto.php" class="text-white">Contacto</a></li>
+          <!--<li><a href="/compania/" class="text-white">Mapa del Sitio</a></li>-->
         </ul>
       </div>
       <div class="col-lg-2 col-md-6 mb-4">
         <h5>Servicios</h5>
         <ul class="list-unstyled">
-          <li><a href="#" class="text-white">Hosting VPS</a></li>
-          <li><a href="#" class="text-white">Planes Reseller</a></li>
-          <li><a href="#" class="text-white">Dominio</a></li>
-          <li><a href="#" class="text-white">Seguridad</a></li>
+          <li><a href="/servidores/vps.php" class="text-white">Hosting VPS</a></li>
+          <li><a href="/hosting/hosting.php" class="text-white">Planes Reseller</a></li>
+          <li><a href="/dominio/dominio.php" class="text-white">Dominio</a></li>
+          <li><a href="/seguridad/certificado.php" class="text-white">Seguridad</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-md-6 mb-4">
@@ -32,15 +32,15 @@
           <li><a href="#" class="text-white">Documentación</a></li>
           <li><a href="#" class="text-white">Blog</a></li>
           <li><a href="#" class="text-white">FAQs</a></li>
-          <li><a href="#" class="text-white">Soporte</a></li>
+          <li><a href="/compania/soporte.php" class="text-white">Soporte</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-md-12 mb-4">
         <h5>Síguenos</h5>
-        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
-        <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+        <a href="https://facebook.com/cloudtobit" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://facebook.com/cloudtobit" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/cloudtobit/" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/cloudtobit/" class="text-white"><i class="fab fa-linkedin"></i></a>
       </div>
     </div>
 
