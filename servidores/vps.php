@@ -41,7 +41,6 @@
         }
         p {
             font-size: 18px;
-            color: #f4f4f4;
             margin: 10px 0;
         }
         .offer {
@@ -140,7 +139,7 @@
         .slider .swiper-slide .card-description{
         padding:1rem 1rem;
         text-align: center;   
-        color: #007bff;
+        color: #333;
         }
         .slider .swiper-slide .card-title,.slider .swiper-slide .card-text{
         margin-bottom: .5rem;
