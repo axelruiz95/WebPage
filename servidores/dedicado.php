@@ -7,15 +7,20 @@
     <title>Construyendo</title>
     <link rel="stylesheet" href="../styles/styles.css">
     <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
         .content {
-            width: 100%;
-            max-width: 1200px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
-
-        .container {
+        .containerdiv {
             text-align: center;
+            flex: 1;
         }
-
         h1 {
             font-size: 3em;
             color: #4CAF50;
@@ -28,7 +33,7 @@
 </head>
 <body class="content">
     <?php include '../menu/header.php'; ?>
-    <div class="container">
+    <div class="containerdiv">
         <h1>Construyendo</h1>
         <p>Estamos trabajando en algo nuevo. ¡Vuelve pronto!</p>
     </div>

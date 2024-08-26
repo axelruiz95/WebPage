@@ -13,7 +13,6 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             flex-direction: column;
-            align-items: center;
             margin: 0;
         }
         .info-container {

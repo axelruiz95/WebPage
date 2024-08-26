@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <style>
-        .content {
-            width: 100%;
-            max-width: 1200px;
-        }
         .info-container {
             text-align: center;
             margin-bottom: 40px;
@@ -77,9 +73,6 @@
         ul {
             list-style-type: none;
             padding: 0;
-        }
-        li {
-            margin-bottom: 20px;
         }
         .list-item {
             display: flex;

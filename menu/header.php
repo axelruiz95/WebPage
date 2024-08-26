@@ -27,7 +27,6 @@
             <li><a class="dropdown-item" href="/dominio/dominio.php">Buscar Dominio</a></li>
             <li><a class="dropdown-item" href="/dominio/whois.php">Whois</a></li>
             <li><hr class="dropdown-divider"></li>
-            <!--<li><a class="dropdown-item" href="#">Something else here</a></li>-->
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -62,11 +61,31 @@
             <li><hr class="dropdown-divider"></li>
           </ul>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+            CRM
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/crm/odoo.php">Odoo</a></li>
+            <li><a class="dropdown-item" href="/seguridad/backup.php">Backup</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+            Reseller
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/reseller/reseller">Hosting</a></li>
+            <li><a class="dropdown-item" href="/reseller/reseller">Referidos</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
       </ul>
-      <!--<form class="d-flex" role="search">
+      <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>-->
+      </form>
     </div>
   </div>
 </nav>
