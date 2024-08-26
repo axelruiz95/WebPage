@@ -11,13 +11,7 @@
             background-color: #f4f4f4;
             display: flex;
             flex-direction: column;
-            align-items: center;
             margin: 0;
-            padding: 20px;
-        }
-        .content {
-            width: 100%;
-            max-width: 1200px;
         }
         table {
             width: 100%;
