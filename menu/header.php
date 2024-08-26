@@ -76,8 +76,8 @@
             Reseller
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/reseller/reseller">Hosting</a></li>
-            <li><a class="dropdown-item" href="/reseller/reseller">Referidos</a></li>
+            <li><a class="dropdown-item" href="/reseller/reseller.php">Hosting</a></li>
+            <li><a class="dropdown-item" href="/reseller/reseller.php">Referidos</a></li>
             <li><hr class="dropdown-divider"></li>
           </ul>
         </li>
