@@ -1,0 +1,44 @@
+  footer {
+  margin-top: 0;
+  padding-top: 0;
+}
+  body, html {
+  margin: 0;
+  padding: 0;
+}
+  .pago {
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .aceptamos {
+    display: flex;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aceptamos-text {
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .dominios-footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .dominios-footer figure {
+    margin: 0;
+  }
+
+  .dominios-footer img {
+    width: auto;
+    height: 78px;
+  }

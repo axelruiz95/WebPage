@@ -7,3 +7,16 @@ Renovaciones: en la renovación del plan, el precio regular será cobrado. La re
 Para quién es válido el descuento: los descuentos son válidos para nuevos clientes. Para clientes actuales esta promoción es válida en la contratación de un nuevo plan de web hosting. No aplica para renovaciones, migraciones entre cuentas, upgrades, downgrades, ni para cambios en el periodo de contratación.
 
 * Nota: Los planes son prepago, es decir, pagas el valor integral del servicio en el momento de la compra. Para fines de comparación, el valor equivalente mensual representa el precio total distribuido en la cantidad de meses contratados.
+
+Sobre Nosotros
+Somos Cloudtobit, una empresa mexicana comprometida con la excelencia en servicios de hosting. Nos especializamos en proporcionar soluciones de VPS (Virtual Private Servers) y planes reseller diseñados para satisfacer las necesidades de todo tipo de clientes, desde pequeñas empresas hasta grandes corporaciones.
+
+Nuestra Misión
+En Cloudtobit, nuestra misión es ofrecer un servicio de calidad superior con un enfoque en la fiabilidad, la seguridad y el soporte personalizado. Sabemos lo importante que es para nuestros clientes contar con un servicio de hosting que sea rápido, seguro y siempre disponible, por eso trabajamos arduamente para garantizar que nuestras soluciones se mantengan a la vanguardia de la tecnología.
+
+¿Por Qué Elegirnos?
+Experiencia Local: Como empresa mexicana, entendemos las necesidades del mercado local y estamos aquí para ofrecerte soluciones adaptadas a tus requerimientos.
+Innovación: Utilizamos la última tecnología en nuestros servidores para asegurar el mejor rendimiento y la máxima disponibilidad.
+Soporte Dedicado: Nuestro equipo de expertos está disponible 24/7 para asistirte en cualquier momento, asegurando que siempre recibas la atención y el soporte que necesitas.
+Ya sea que estés buscando un servidor VPS robusto y escalable o un plan reseller para expandir tu propio negocio, en Cloudtobit tenemos las soluciones perfectas para ti.
+

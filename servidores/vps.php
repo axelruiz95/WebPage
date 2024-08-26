@@ -6,81 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VPS, Cloud VPS</title>
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
-            display: flex;
             flex-direction: column;
-            align-items: center;
             margin: 0;
-            padding: 20px;
         }
-
-        .content {
-            width: 100%;
-            max-width: 1200px;
-        }
-
         .info-container {
             display: flex;
             align-items: center;
             padding: 20px;
             gap: 20px;
         }
-
         .info-content {
             display: flex;
             align-items: center;
             gap: 20px;
         }
-
         .info-container img {
-            max-width: 200px;
             height: auto;
             border-radius: 8px;
         }
-
         .text-content {
             flex: 1;
         }
-
         h2 {
             font-size: 24px;
             color: #333;
             margin-bottom: 10px;
         }
-
         p {
             font-size: 18px;
-            color: #333;
             margin: 10px 0;
         }
-
         .offer {
             font-size: 20px;
             color: #ff4500;
         }
-
         table {
             width: 100%;
             border-collapse: collapse;
             margin-bottom: 40px;
         }
-
         table td {
             padding: 10px;
             border: 1px solid #ddd;
             vertical-align: top;
         }
-
         .plan-container {
             display: flex;
             justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
         }
-
         .plan {
             background-color: #fff;
             border-radius: 8px;
@@ -91,25 +72,21 @@
             flex: 0 1 23%;
             box-sizing: border-box;
         }
-
         .plan h2 {
             font-size: 24px;
             color: #333;
             margin: 10px 0;
         }
-
         .plan p {
             font-size: 16px;
             color: #333;
             margin: 10px 0;
         }
-
         .plan .price {
             font-size: 20px;
             color: #333;
             margin: 20px 0;
         }
-
         .plan .button {
             display: inline-block;
             padding: 10px 20px;
@@ -124,15 +101,64 @@
             border-radius: 15px;
             box-shadow: 0 9px #999;
         }
-
         .plan .button:hover {
             background-color: #3e8e41;
         }
-
         .plan .button:active {
             background-color: #3e8e41;
             box-shadow: 0 5px #666;
             transform: translateY(4px);
+        }  
+        .slider{
+        width: 70%;
+        padding: 10px 40px;
+        margin: 0;
+        }
+        .slider .swiper-slider{
+        width: 100%;
+        height: 100%;
+        }
+        .slider .swiper-slide {
+        position: relative;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        border-radius: 15px;
+        text-align: start;
+        box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+        }
+        .slider .swiper-slide img{
+        display: block;
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        }
+        .slider .swiper-slide .card-description{
+        padding:1rem 1rem;
+        text-align: center;   
+        color: #333;
+        }
+        .slider .swiper-slide .card-title,.slider .swiper-slide .card-text{
+        margin-bottom: .5rem;
+        }
+        .slider .swiper-slide .card-link{
+        text-align: center;        
+        }
+        .slider .swiper-slide .card-link a{
+        text-decoration: none;
+        color: #007bff;
+        }
+        .swiper-button-next{
+        right: 26px !important;
+        top: 500px !important;
+        position: absolute;
+        }
+        .swiper-button-prev{
+        left: 26px !important;
+        top: 500px !important;
+        position: absolute;
         }
     </style>
 </head>
@@ -157,7 +183,116 @@
         </div>
     </section>
 
-    <section>
+    <div class="slider">
+<!--        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>-->
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../img/vps1.png"
+                        alt="">
+                    <div class="card-description">
+                        <div class="card-title">
+                            <h4>ToVps 1</h4>
+                        </div>
+                        <div class="card-text">
+                            <p class="price">$490 MXN Mensual + iva</p>
+                            <p>1 vCPU</p>
+                            <p>2 GB RAM</p>
+                            <p>50 GB SSD</p>
+                            <p>1 IP dedicada</p>
+                            <p>Soporte 24/7</p>
+                        </div>
+                        <div class="card-link">
+                          <a href="#">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/vps1.png"
+                        alt="">
+                    <div class="card-description">
+                        <div class="card-title">
+                            <h4>ToVps 2</h4>
+                        </div>
+                        <div class="card-text">
+                            <p class="price">$700 MXN Mensual + iva</p>
+                            <p>2 vCPU</p>
+                            <p>4 GB RAM</p>
+                            <p>80 GB SSD</p>
+                            <p>1 IP dedicada</p>
+                            <p>Soporte 24/7</p>
+                        </div>
+                        <div class="card-link">
+                          <a href="#">Ver más</a>
+                        </div>
+                </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/vps1.png"
+                    alt="">
+                <div class="card-description">
+                    <div class="card-title">
+                        <h4>ToVps 3</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="price">$950 MXN Mensual + iva</p>
+                        <p>4 vCPU</p>
+                        <p>8 GB RAM</p>
+                        <p>160 GB SSD</p>
+                        <p>1 IPs dedicadas</p>
+                        <p>Soporte 24/7</p>
+                    </div>
+                    <div class="card-link">
+                      <a href="#">Ver más</a>
+                    </div>
+                </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/vps1.png"
+                    alt="">
+                <div class="card-description">
+                    <div class="card-title">
+                        <h4>ToVps 4</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="price">$1700 MXN Mensual + iva</p>
+                <p>6 vCPU</p>
+                <p>10 GB RAM</p>
+                <p>250 GB SSD</p>
+                <p>1 IPs dedicadas</p>
+                <p>Soporte 24/7</p>
+                    </div>
+                    <div class="card-link">
+                      <a href="#">Ver más</a>
+                    </div>
+                </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/vps1.png"
+                    alt="">
+                <div class="card-description">
+                    <div class="card-title">
+                        <h4>ToVps 5</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="price">$2500 MXN Mensual + iva</p>
+                        <p>6 vCPU</p>
+                        <p>16 GB RAM</p>
+                        <p>320 GB SSD</p>
+                        <p>1 IPs dedicadas</p>
+                        <p>Soporte 24/7</p>
+                    </div>
+                    <div class="card-link">
+                      <a href="#">Ver más</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--<section>
         <h1>Soluciones VPS</h1>
         <div class="plan-container">
             <div class="plan">
@@ -211,7 +346,7 @@
                 <p>Soporte 24/7</p>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section>
         <table>
@@ -285,6 +420,8 @@
     <?php
     include '../menu/footer.php';
     ?>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../app.js"></script>
 </body>
 
 </html>

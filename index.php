@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloud to bit</title>
     <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
-  
+    <link rel="stylesheet" href="./styles/responsive.css"> 
 </head>
 <body class="content">
 
@@ -30,16 +29,18 @@ include './menu/header.php';
         </div>
     </section>
     
-    <section class="dom-home">
-        <div class="oferta-dom">
+        <section class="dom-home">
+    <div class="oferta-dom">
+        <div class="o-texts">
             <div class="o-text1-dom"><p>Get 10% Off Today</p></div>
-            <div class="o-text2-dom"><p>Grab the holiday offer. This offer will end in 3 days.Hurry Up! <br>Get your perfect domain starting from 149/Mo.</p></div>
+            <div class="o-text2-dom"><p>Grab the holiday offer. This offer will end in 3 days. Hurry Up! <br>Get your perfect domain starting from 149/Mo.</p></div>
         </div>
-        <div>
-            <input type="text" class="text-buscador-dom" placeholder="Escribe Tu dominio aqui!">
+        <div class="search-container">
+            <input type="text" class="text-buscador-dom" placeholder="Escribe Tu dominio aquí!">
             <button type="button" class="buscador-dom">Buscar</button>
         </div>
-    </section>
+    </div>
+</section>
 
     
     <section class="about">
@@ -294,9 +295,7 @@ include './menu/header.php';
         </div>
     </section>
 <!--footer-->
-    <?php
-    include './menu/footer.php';
-    ?>
+    <?php include './menu/footer.php'; ?>
     <script src="js/script.js"></script>
 </body>
 </html>

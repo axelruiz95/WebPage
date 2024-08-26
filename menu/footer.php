@@ -1,162 +1,84 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<style>
-    footer {
-        padding: 20px 0;
-    }
 
-    .footer-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
 
-    .footer-logo {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        margin-right: 20px;
-    }
-
-    .footer-content {
-        flex: 3;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .footer-links {
-        display: flex;
-        flex: 2;
-        justify-content: space-between;
-    }
-
-    .footer-section {
-        flex: 1;
-        margin: 0 10px;
-    }
-
-    .footer-section h3 {
-        margin-bottom: 15px;
-        font-size: 1.2em;
-        color: #fff;
-    }
-
-    .footer-section h3 a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    .footer-section ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    .footer-section ul li {
-        margin-bottom: 10px;
-    }
-
-    .footer-section ul li a {
-        color: #ddd;
-        text-decoration: none;
-    }
-
-    .footer-section ul li a:hover {
-        text-decoration: underline;
-    }
-
-    .social-icons {
-        margin-top: 15px;
-    }
-
-    .social-icons a {
-        margin-right: 10px;
-    }
-
-    .social-icons img {
-        width: 24px;
-        height: 24px;
-    }
-
-    .footer-copyright,
-    .footer-disclaimer {
-        text-align: center;
-        margin-top: 20px;
-        font-size: 0.9em;
-    }
-
-    .footer-disclaimer {
-        display: block;
-        margin-top: 10px;
-        color: #aaa;
-    }
-
-    .social-icons a {
-        color: #white;
-        font-size: 24px;
-        margin: 0 10px;
-        transition: color 0.3s;
-    }
-
-    .social-icons a:hover {
-        color: #ff4500;
-    }
-</style>
-<footer>
-    <div class="footer-container">
-        <div class="footer-logo">
-            <img src="/img/google.png" alt="Logo" style="width: 95px; height: 45px;">
-        </div>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3><a href="/index.php">CLOUD TO BIT</a></h3>
-                <p><h5>Tu proveedor de soluciones en la nube.</h5></p>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com" target="_blank" title="Facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" title="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="footer-links">
-                <div class="footer-section">
-                    <h3>Compañía</h3>
-                    <ul>
-                        <li><a href="#">Acerca de Nosotros</a></li>
-                        <li><a href="#">Contáctanos</a></li>
-                        <li><a href="#">Soporte</a></li>
-                        <li><a href="#">Mapa del Sitio</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Servicios</h3>
-                    <ul>
-                        <li><a href="#">Plesk Hosting</a></li>
-                        <li><a href="#">VPS Hosting</a></li>
-                        <li><a href="#">Servidores Dedicados</a></li>
-                        <li><a href="#">Nube Privada</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Recursos</h3>
-                    <ul>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Base de Conocimiento</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+<footer class="bg-dark text-white">
+<div class="pago">
+  <div class="container aceptamos">
+    <span class="patua h3 aceptamos-text">Contamos con: </span>
+    <div class="dominios-footer">
+      <a rel="nofollow noopener" target="_blank" href="https://www.paypal.com/mx/webapps/mpp/home">
+        <img src="/img/paypal.webp" loading="lazy" alt="Paypal">
+      </a>
+      <figure>
+        <img src="/img/wispok-logo.png" loading="lazy" alt="wispok" style="width: 250px; height: 70px;">
+      </figure>
+      <figure>
+        <img src="/img/visa_card.webp" loading="lazy" alt="Visa">
+      </figure>
+      <figure>
+        <img src="/img/mastercard-logo.webp" loading="lazy" alt="Mastercad">
+      </figure>
+      <figure>
+        <img src="/img/Mercado-Pago-Logo.png" loading="lazy" alt="Mercado Pago">
+      </figure>
     </div>
-    <p class="footer-copyright">
-        &copy; <?php echo date("Y"); ?> Todos los derechos reservados. Cloudtbit.com
-    </p>
-    <small class="footer-disclaimer">
-        Los precios están en pesos mexicanos (MXN), no incluyen IVA y están sujetos a cambios sin previo aviso.
-    </small>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4 text-center">
+      <img src="/img/logo-sin-fondo.png" alt="Logo" style="width: 350px; height: 100px;" class="mb-3">
+      <p><i class="fas fa-phone-alt"></i> +52 (33) 1875 7440</p>
+      <p><i class="fas fa-envelope"></i> contacto@cloudtbit.com</p>
+      <p><i class="fas fa-calendar-day"></i> Lun - Vie 8:00 a 18:00</p>
+      <p><i class="fas fa-headset"></i> Soporte 24/7</p>
+    </div>
+    <div class="col-lg-2 col-md-6 mb-4">
+      <h5>Compañía</h5>
+      <ul class="list-unstyled">
+        <li><a href="/compania/about.php" class="text-white">Acerca de Nosotros</a></li>
+        <li><a href="/compania/soporte.php" class="text-white">Soporte</a></li>
+        <li><a href="/compania/contacto.php" class="text-white">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-2 col-md-6 mb-4">
+      <h5>Servicios</h5>
+      <ul class="list-unstyled">
+        <li><a href="/servidores/vps.php" class="text-white">Hosting VPS</a></li>
+        <li><a href="/hosting/hosting.php" class="text-white">Planes Reseller</a></li>
+        <li><a href="/dominio/dominio.php" class="text-white">Dominio</a></li>
+        <li><a href="/seguridad/certificado.php" class="text-white">Seguridad</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-2 col-md-6 mb-4">
+      <h5>Recursos</h5>
+      <ul class="list-unstyled">
+        <li><a href="#" class="text-white">Documentación</a></li>
+        <li><a href="#" class="text-white">Blog</a></li>
+        <li><a href="#" class="text-white">FAQs</a></li>
+        <li><a href="/compania/soporte.php" class="text-white">Soporte</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-2 col-md-12 mb-4">
+      <h5>Síguenos</h5>
+      <a href="https://facebook.com/cloudtobit" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://facebook.com/cloudtobit" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/cloudtobit/" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.instagram.com/cloudtobit/" class="text-white"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+
+  <hr class="mb-4">
+
+  <div class="row">
+    <div class="col text-center">
+      <p class="mb-0">&copy; <?php echo date("Y"); ?> Cloudtobit. Todos los derechos reservados.</p>
+    </div>
+  </div>
+</div>
 </footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../styles/footer.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
