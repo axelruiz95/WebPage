@@ -27,7 +27,7 @@ include './menu/header.php';
             <img src="img/home.png" class="home-img" alt="Home Image">
             </div>
         </div>
-        </section>
+    </section>
     
         <section class="dom-home">
     <div class="oferta-dom">

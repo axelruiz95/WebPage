@@ -9,3 +9,13 @@ git merge main
 git add .
 git commit -m "Cambio"
 git push origin Cambios-Barbara
+
+
+Posibles errores
+fatal: You have not concluded your merge (MERGE_HEAD exists).
+Please, commit your changes before you merge.
+
+Realizar esto 
+git add .
+git commit -m "Cambio"
+git push origin Cambios-Barbara
